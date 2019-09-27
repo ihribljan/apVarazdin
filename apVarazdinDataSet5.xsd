@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="apVarazdinDataSet5" targetNamespace="http://tempuri.org/apVarazdinDataSet5.xsd" xmlns:mstns="http://tempuri.org/apVarazdinDataSet5.xsd" xmlns="http://tempuri.org/apVarazdinDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="apVarazdinConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="apVarazdinConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.APVarazdin.Properties.Settings.GlobalReference.Default.apVarazdinConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vProdaneKarteTableAdapter" GeneratorDataComponentClassName="vProdaneKarteTableAdapter" Name="vProdaneKarte" UserDataComponentName="vProdaneKarteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="apVarazdinConnectionString (Settings)" DbObjectName="apVarazdin.dbo.vProdaneKarte" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Id, BrojKarte, VrijemeIzdavanja, Polazak, VrijemePolaska, Dolazak, VrijemeDolaska, IznosRacuna, Zaposlenik FROM dbo.vProdaneKarte</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="BrojKarte" DataSetColumn="BrojKarte" />
+              <Mapping SourceColumn="VrijemeIzdavanja" DataSetColumn="VrijemeIzdavanja" />
+              <Mapping SourceColumn="Polazak" DataSetColumn="Polazak" />
+              <Mapping SourceColumn="VrijemePolaska" DataSetColumn="VrijemePolaska" />
+              <Mapping SourceColumn="Dolazak" DataSetColumn="Dolazak" />
+              <Mapping SourceColumn="VrijemeDolaska" DataSetColumn="VrijemeDolaska" />
+              <Mapping SourceColumn="IznosRacuna" DataSetColumn="IznosRacuna" />
+              <Mapping SourceColumn="Zaposlenik" DataSetColumn="Zaposlenik" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="apVarazdinDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="apVarazdinDataSet5" msprop:Generator_UserDSName="apVarazdinDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vProdaneKarte" msprop:Generator_TableClassName="vProdaneKarteDataTable" msprop:Generator_TableVarName="tablevProdaneKarte" msprop:Generator_TablePropName="vProdaneKarte" msprop:Generator_RowDeletingName="vProdaneKarteRowDeleting" msprop:Generator_RowChangingName="vProdaneKarteRowChanging" msprop:Generator_RowEvHandlerName="vProdaneKarteRowChangeEventHandler" msprop:Generator_RowDeletedName="vProdaneKarteRowDeleted" msprop:Generator_UserTableName="vProdaneKarte" msprop:Generator_RowChangedName="vProdaneKarteRowChanged" msprop:Generator_RowEvArgName="vProdaneKarteRowChangeEvent" msprop:Generator_RowClassName="vProdaneKarteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="BrojKarte" msprop:Generator_ColumnVarNameInTable="columnBrojKarte" msprop:Generator_ColumnPropNameInRow="BrojKarte" msprop:Generator_ColumnPropNameInTable="BrojKarteColumn" msprop:Generator_UserColumnName="BrojKarte" type="xs:int" />
+              <xs:element name="VrijemeIzdavanja" msprop:Generator_ColumnVarNameInTable="columnVrijemeIzdavanja" msprop:Generator_ColumnPropNameInRow="VrijemeIzdavanja" msprop:Generator_ColumnPropNameInTable="VrijemeIzdavanjaColumn" msprop:Generator_UserColumnName="VrijemeIzdavanja" type="xs:dateTime" />
+              <xs:element name="Polazak" msprop:Generator_ColumnVarNameInTable="columnPolazak" msprop:Generator_ColumnPropNameInRow="Polazak" msprop:Generator_ColumnPropNameInTable="PolazakColumn" msprop:Generator_UserColumnName="Polazak">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VrijemePolaska" msprop:Generator_ColumnVarNameInTable="columnVrijemePolaska" msprop:Generator_ColumnPropNameInRow="VrijemePolaska" msprop:Generator_ColumnPropNameInTable="VrijemePolaskaColumn" msprop:Generator_UserColumnName="VrijemePolaska" type="xs:dateTime" />
+              <xs:element name="Dolazak" msprop:Generator_ColumnVarNameInTable="columnDolazak" msprop:Generator_ColumnPropNameInRow="Dolazak" msprop:Generator_ColumnPropNameInTable="DolazakColumn" msprop:Generator_UserColumnName="Dolazak">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VrijemeDolaska" msprop:Generator_ColumnVarNameInTable="columnVrijemeDolaska" msprop:Generator_ColumnPropNameInRow="VrijemeDolaska" msprop:Generator_ColumnPropNameInTable="VrijemeDolaskaColumn" msprop:Generator_UserColumnName="VrijemeDolaska" type="xs:dateTime" />
+              <xs:element name="IznosRacuna" msprop:Generator_ColumnVarNameInTable="columnIznosRacuna" msprop:Generator_ColumnPropNameInRow="IznosRacuna" msprop:Generator_ColumnPropNameInTable="IznosRacunaColumn" msprop:Generator_UserColumnName="IznosRacuna" type="xs:decimal" />
+              <xs:element name="Zaposlenik" msprop:Generator_ColumnVarNameInTable="columnZaposlenik" msprop:Generator_ColumnPropNameInRow="Zaposlenik" msprop:Generator_ColumnPropNameInTable="ZaposlenikColumn" msprop:Generator_UserColumnName="Zaposlenik" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
