@@ -32,13 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DnevniPrometi));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dnevniPrometiBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.apVarazdinDataSet1 = new APVarazdin.apVarazdinDataSet1();
-            this.apVarazdinDataSet = new APVarazdin.apVarazdinDataSet();
+            this.apVarazdinDataSet1 = new APVarazdin.apVzDataSet();
+            this.apVarazdinDataSet = new APVarazdin.apVzDataSet();
             this.apVarazdinDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.apVarazdinDataSetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.autobusiBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.autobusiTableAdapter = new APVarazdin.apVarazdinDataSetTableAdapters.AutobusiTableAdapter();
-            this.dnevniPrometiTableAdapter = new APVarazdin.apVarazdinDataSet1TableAdapters.DnevniPrometiTableAdapter();
+            this.autobusiTableAdapter = new APVarazdin.apVzDataSetTableAdapters.AutobusiTableAdapter();
+            this.dnevniPrometiTableAdapter = new APVarazdin.apVzDataSetTableAdapters.DnevniPrometiTableAdapter();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.datumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.iznosDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -151,13 +151,13 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource apVarazdinDataSetBindingSource;
-        private apVarazdinDataSet apVarazdinDataSet;
+        private apVzDataSet apVarazdinDataSet;
         private System.Windows.Forms.BindingSource apVarazdinDataSetBindingSource1;
         private System.Windows.Forms.BindingSource autobusiBindingSource;
-        private apVarazdinDataSetTableAdapters.AutobusiTableAdapter autobusiTableAdapter;
-        private apVarazdinDataSet1 apVarazdinDataSet1;
+        private apVzDataSetTableAdapters.AutobusiTableAdapter autobusiTableAdapter;
+        private apVzDataSet apVarazdinDataSet1;
         private System.Windows.Forms.BindingSource dnevniPrometiBindingSource;
-        private apVarazdinDataSet1TableAdapters.DnevniPrometiTableAdapter dnevniPrometiTableAdapter;
+        private apVzDataSetTableAdapters.DnevniPrometiTableAdapter dnevniPrometiTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn datumDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn iznosDataGridViewTextBoxColumn;

@@ -61,68 +61,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="apVarazdinDataSet.Designer.cs">
+    <Compile Include="apVzDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet10.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet10.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet11.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet11.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet3.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet4.cs">
-      <DependentUpon>apVarazdinDataSet4.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet4.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet4.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet5.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet5.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet6.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet6.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet7.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet7.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet8.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet8.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="apVarazdinDataSet9.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>apVarazdinDataSet9.xsd</DependentUpon>
+      <DependentUpon>apVzDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Autobusi.cs">
       <SubType>Form</SubType>
@@ -214,137 +156,16 @@
     <EmbeddedResource Include="Zaposlenici.resx">
       <DependentUpon>Zaposlenici.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="apVarazdinDataSet.xsc">
-      <DependentUpon>apVarazdinDataSet.xsd</DependentUpon>
+    <None Include="apVzDataSet.xsc">
+      <DependentUpon>apVzDataSet.xsd</DependentUpon>
     </None>
-    <None Include="apVarazdinDataSet.xsd">
+    <None Include="apVzDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>apVzDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="apVarazdinDataSet.xss">
-      <DependentUpon>apVarazdinDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet1.xsc">
-      <DependentUpon>apVarazdinDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet1.xss">
-      <DependentUpon>apVarazdinDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet10.xsc">
-      <DependentUpon>apVarazdinDataSet10.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet10.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet10.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet10.xss">
-      <DependentUpon>apVarazdinDataSet10.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet11.xsc">
-      <DependentUpon>apVarazdinDataSet11.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet11.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet11.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet11.xss">
-      <DependentUpon>apVarazdinDataSet11.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet2.xsc">
-      <DependentUpon>apVarazdinDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet2.xss">
-      <DependentUpon>apVarazdinDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet3.xsc">
-      <DependentUpon>apVarazdinDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet3.xss">
-      <DependentUpon>apVarazdinDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet4.xsc">
-      <DependentUpon>apVarazdinDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet4.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet4.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet4.xss">
-      <DependentUpon>apVarazdinDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet5.xsc">
-      <DependentUpon>apVarazdinDataSet5.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet5.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet5.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet5.xss">
-      <DependentUpon>apVarazdinDataSet5.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet6.xsc">
-      <DependentUpon>apVarazdinDataSet6.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet6.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet6.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet6.xss">
-      <DependentUpon>apVarazdinDataSet6.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet7.xsc">
-      <DependentUpon>apVarazdinDataSet7.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet7.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet7.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet7.xss">
-      <DependentUpon>apVarazdinDataSet7.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet8.xsc">
-      <DependentUpon>apVarazdinDataSet8.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet8.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet8.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet8.xss">
-      <DependentUpon>apVarazdinDataSet8.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet9.xsc">
-      <DependentUpon>apVarazdinDataSet9.xsd</DependentUpon>
-    </None>
-    <None Include="apVarazdinDataSet9.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>apVarazdinDataSet9.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="apVarazdinDataSet9.xss">
-      <DependentUpon>apVarazdinDataSet9.xsd</DependentUpon>
+    <None Include="apVzDataSet.xss">
+      <DependentUpon>apVzDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

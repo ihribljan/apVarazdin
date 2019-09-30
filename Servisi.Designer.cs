@@ -32,11 +32,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Servisi));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.vServisiBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.apVarazdinDataSet3 = new APVarazdin.apVarazdinDataSet3();
+            this.apVarazdinDataSet3 = new APVarazdin.apVzDataSet();
             this.servisiAutobusaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.apVarazdinDataSet1 = new APVarazdin.apVarazdinDataSet1();
-            this.servisiAutobusaTableAdapter = new APVarazdin.apVarazdinDataSet1TableAdapters.ServisiAutobusaTableAdapter();
-            this.vServisiTableAdapter = new APVarazdin.apVarazdinDataSet3TableAdapters.vServisiTableAdapter();
+            this.apVarazdinDataSet1 = new APVarazdin.apVzDataSet();
+            this.servisiAutobusaTableAdapter = new APVarazdin.apVzDataSetTableAdapters.ServisiAutobusaTableAdapter();
+            this.vServisiTableAdapter = new APVarazdin.apVzDataSetTableAdapters.vServisiTableAdapter();
             this.datumServisaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Naziv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Mjesto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -164,12 +164,12 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private apVarazdinDataSet1 apVarazdinDataSet1;
+        private apVzDataSet apVarazdinDataSet1;
         private System.Windows.Forms.BindingSource servisiAutobusaBindingSource;
-        private apVarazdinDataSet1TableAdapters.ServisiAutobusaTableAdapter servisiAutobusaTableAdapter;
-        private apVarazdinDataSet3 apVarazdinDataSet3;
+        private apVzDataSetTableAdapters.ServisiAutobusaTableAdapter servisiAutobusaTableAdapter;
+        private apVzDataSet apVarazdinDataSet3;
         private System.Windows.Forms.BindingSource vServisiBindingSource;
-        private apVarazdinDataSet3TableAdapters.vServisiTableAdapter vServisiTableAdapter;
+        private apVzDataSetTableAdapters.vServisiTableAdapter vServisiTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn datumServisaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn Naziv;
         private System.Windows.Forms.DataGridViewTextBoxColumn Mjesto;

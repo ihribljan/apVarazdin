@@ -31,9 +31,9 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProdaneKarte));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.apVarazdinDataSet5 = new APVarazdin.apVarazdinDataSet5();
+            this.apVarazdinDataSet5 = new APVarazdin.apVzDataSet();
             this.vProdaneKarteBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.vProdaneKarteTableAdapter = new APVarazdin.apVarazdinDataSet5TableAdapters.vProdaneKarteTableAdapter();
+            this.vProdaneKarteTableAdapter = new APVarazdin.apVzDataSetTableAdapters.vProdaneKarteTableAdapter();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.brojKarteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vrijemeIzdavanjaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -162,9 +162,9 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private apVarazdinDataSet5 apVarazdinDataSet5;
+        private apVzDataSet apVarazdinDataSet5;
         private System.Windows.Forms.BindingSource vProdaneKarteBindingSource;
-        private apVarazdinDataSet5TableAdapters.vProdaneKarteTableAdapter vProdaneKarteTableAdapter;
+        private apVzDataSetTableAdapters.vProdaneKarteTableAdapter vProdaneKarteTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn brojKarteDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn vrijemeIzdavanjaDataGridViewTextBoxColumn;

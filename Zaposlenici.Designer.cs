@@ -40,13 +40,13 @@
             this.radnoMjestoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mjestoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vZaposleniciBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.apVarazdinDataSet11 = new APVarazdin.apVarazdinDataSet4();
-            this.vZaposleniciTableAdapter = new APVarazdin.apVarazdinDataSet3TableAdapters.vZaposleniciTableAdapter();
+            this.apVarazdinDataSet11 = new APVarazdin.apVzDataSet();
+            this.vZaposleniciTableAdapter = new APVarazdin.apVzDataSetTableAdapters.vZaposleniciTableAdapter();
             this.vZaposleniciBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.vZaposleniciTableAdapter1 = new APVarazdin.apVarazdinDataSet4TableAdapters.vZaposleniciTableAdapter();
-            this.apVarazdinDataSet6 = new APVarazdin.apVarazdinDataSet6();
+            this.vZaposleniciTableAdapter1 = new APVarazdin.apVzDataSetTableAdapters.vZaposleniciTableAdapter();
+            this.apVarazdinDataSet6 = new APVarazdin.apVzDataSet();
             this.vZaposleniciBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.vZaposleniciTableAdapter2 = new APVarazdin.apVarazdinDataSet6TableAdapters.vZaposleniciTableAdapter();
+            this.vZaposleniciTableAdapter2 = new APVarazdin.apVzDataSetTableAdapters.vZaposleniciTableAdapter();
             this.Zaporka = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vZaposleniciBindingSource2)).BeginInit();
@@ -192,13 +192,13 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private apVarazdinDataSet3TableAdapters.vZaposleniciTableAdapter vZaposleniciTableAdapter;
-        private apVarazdinDataSet4 apVarazdinDataSet11;
+        private apVzDataSetTableAdapters.vZaposleniciTableAdapter vZaposleniciTableAdapter;
+        private apVzDataSet apVarazdinDataSet11;
         private System.Windows.Forms.BindingSource vZaposleniciBindingSource;
-        private apVarazdinDataSet4TableAdapters.vZaposleniciTableAdapter vZaposleniciTableAdapter1;
-        private apVarazdinDataSet6 apVarazdinDataSet6;
+        private apVzDataSetTableAdapters.vZaposleniciTableAdapter vZaposleniciTableAdapter1;
+        private apVzDataSet apVarazdinDataSet6;
         private System.Windows.Forms.BindingSource vZaposleniciBindingSource1;
-        private apVarazdinDataSet6TableAdapters.vZaposleniciTableAdapter vZaposleniciTableAdapter2;
+        private apVzDataSetTableAdapters.vZaposleniciTableAdapter vZaposleniciTableAdapter2;
         private System.Windows.Forms.BindingSource vZaposleniciBindingSource2;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn imeDataGridViewTextBoxColumn;

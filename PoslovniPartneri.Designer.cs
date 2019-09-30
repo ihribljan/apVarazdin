@@ -30,17 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PoslovniPartneri));
-            this.vPoslovniPartneriTableAdapter = new APVarazdin.apVarazdinDataSet3TableAdapters.vPoslovniPartneriTableAdapter();
+            this.vPoslovniPartneriTableAdapter = new APVarazdin.apVzDataSetTableAdapters.vPoslovniPartneriTableAdapter();
             this.vPoslovniPartneriBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.apVarazdinDataSet6 = new APVarazdin.apVarazdinDataSet6();
+            this.apVarazdinDataSet6 = new APVarazdin.apVzDataSet();
             this.vPoslovniPartneriBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.vPoslovniPartneriTableAdapter1 = new APVarazdin.apVarazdinDataSet6TableAdapters.vPoslovniPartneriTableAdapter();
-            this.apVarazdinDataSet8 = new APVarazdin.apVarazdinDataSet8();
-            this.vPoslovniPartneriTableAdapter2 = new APVarazdin.apVarazdinDataSet8TableAdapters.vPoslovniPartneriTableAdapter();
+            this.vPoslovniPartneriTableAdapter1 = new APVarazdin.apVzDataSetTableAdapters.vPoslovniPartneriTableAdapter();
+            this.apVarazdinDataSet8 = new APVarazdin.apVzDataSet();
+            this.vPoslovniPartneriTableAdapter2 = new APVarazdin.apVzDataSetTableAdapters.vPoslovniPartneriTableAdapter();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.vPoslovniPartneriBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.apVarazdinDataSet9 = new APVarazdin.apVarazdinDataSet9();
-            this.vPoslovniPartneriTableAdapter3 = new APVarazdin.apVarazdinDataSet9TableAdapters.vPoslovniPartneriTableAdapter();
+            this.apVarazdinDataSet9 = new APVarazdin.apVzDataSet();
+            this.vPoslovniPartneriTableAdapter3 = new APVarazdin.apVzDataSetTableAdapters.vPoslovniPartneriTableAdapter();
             this.apVarazdinDataSet8BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.mjestoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.adresaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -175,17 +175,17 @@
         }
 
         #endregion
-        private apVarazdinDataSet3TableAdapters.vPoslovniPartneriTableAdapter vPoslovniPartneriTableAdapter;
+        private apVzDataSetTableAdapters.vPoslovniPartneriTableAdapter vPoslovniPartneriTableAdapter;
         private System.Windows.Forms.BindingSource vPoslovniPartneriBindingSource1;
-        private apVarazdinDataSet6 apVarazdinDataSet6;
+        private apVzDataSet apVarazdinDataSet6;
         private System.Windows.Forms.BindingSource vPoslovniPartneriBindingSource2;
-        private apVarazdinDataSet6TableAdapters.vPoslovniPartneriTableAdapter vPoslovniPartneriTableAdapter1;
-        private apVarazdinDataSet8 apVarazdinDataSet8;
-        private apVarazdinDataSet8TableAdapters.vPoslovniPartneriTableAdapter vPoslovniPartneriTableAdapter2;
+        private apVzDataSetTableAdapters.vPoslovniPartneriTableAdapter vPoslovniPartneriTableAdapter1;
+        private apVzDataSet apVarazdinDataSet8;
+        private apVzDataSetTableAdapters.vPoslovniPartneriTableAdapter vPoslovniPartneriTableAdapter2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private apVarazdinDataSet9 apVarazdinDataSet9;
+        private apVzDataSet apVarazdinDataSet9;
         private System.Windows.Forms.BindingSource vPoslovniPartneriBindingSource;
-        private apVarazdinDataSet9TableAdapters.vPoslovniPartneriTableAdapter vPoslovniPartneriTableAdapter3;
+        private apVzDataSetTableAdapters.vPoslovniPartneriTableAdapter vPoslovniPartneriTableAdapter3;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nazivDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn oibDataGridViewTextBoxColumn;
